@@ -1,0 +1,14 @@
+
+public class TeleopStateMachine{
+  private static TeleopStateMachine instance = null;
+  public static TeleopStateMachine getInstance(){
+    if(instance == null)
+      instance = new TeleopStateMachine();
+    return instance;
+  }
+  
+  public void setup(){
+  }
+  public void run(){
+  }
+}
